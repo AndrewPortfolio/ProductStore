@@ -1,0 +1,30 @@
+{
+  "name": "productstore",
+  "version": "1.0.0",
+  "description": "# Building a product store to practice MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewPortfolio/ProductStore.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewPortfolio/ProductStore/issues"
+  },
+  "homepage": "https://github.com/AndrewPortfolio/ProductStore#readme",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
