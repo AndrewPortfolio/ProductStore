@@ -1,8 +1,11 @@
 import React from 'react'
 import { Button, Container, Flex, HStack, Text, IconButton, Link as ChakraLink, useColorMode, useColorModeValue  } from '@chakra-ui/react'
-import { MoonIcon, SunIcon } from '@chakra-ui/icons'
 import { Link as RouterLink } from 'react-router-dom'
+
+import { MoonIcon, SunIcon } from '@chakra-ui/icons'
 import { FaRegPlusSquare } from 'react-icons/fa'
+
+
 
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode() //hook from chakra ui that will give us these values which allows us to toggle color mode on the webpage 
@@ -21,7 +24,7 @@ const Navbar = () => {
           as={RouterLink}
           to="/"
           display="inline-block"
-          fontSize={{ base: '22px', sm: '28px' }}
+          fontSize="40"
           fontWeight="bold"
           textTransform="uppercase"
           sx={{
